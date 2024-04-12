@@ -534,7 +534,7 @@
             s.useMutation)({
                 mutationFn: async()=>{
                     let e = localStorage.getItem("cloudPoints")
-                      , t = (+e < 10000000)  ? 100000 : 0// Math.max(h - (e ? Number(e) : h),);
+                      , t = (+e < 5000000)  ? 100000 : 0// Math.max(h - (e ? Number(e) : h),);
                     if (0 !== t)
                         return await (0,
                         d.Yy)(t)
